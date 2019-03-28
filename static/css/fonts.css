@@ -1,0 +1,17 @@
+@font-face {
+  src: url("../fonts/MONTSERRAT-MEDIUM_0.TTF") format("truetype");
+  font-family: montserrat;
+  font-weight: 500;
+}
+@font-face {
+  src: url("../fonts/MONTSERRAT-REGULAR_0.TTF") format("truetype");
+  font-family: montserrat;
+  font-weight: 400;
+}
+@font-face {
+  src: url("../fonts/MONTSERRAT-SEMIBOLD_0.TTF") format("truetype");
+  font-family: montserrat;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=fonts.css.map */
