@@ -79,12 +79,26 @@ body {
     .content {
         width: 30%;
         margin-left: 8%;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 120px;
+            height: 120px;
+        }
 
         @media screen and (max-width: 1023px) {
             width: 80%;
 
+            img {
+                right: -40px;
+            }
+
             h2 {
-                font-size: 34px;
+                font-size: 30px;
+                width: 90%;
             }
         }
     }
@@ -92,8 +106,9 @@ body {
     h2 {
         color: $blue;
         font-weight: 400;
-        font-size: 38px;
+        font-size: 36px;
         margin-bottom: 40px;
+        width: 80%;
     }
 
     p {
