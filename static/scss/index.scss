@@ -38,8 +38,8 @@ body {
             a {
                 text-decoration: none;
                 color: $grey;
-                font-weight: 600;
-                font-size: 14px;
+                font-weight: 500;
+                font-size: 13px;
             }
         }
     }
@@ -99,7 +99,7 @@ body {
     p {
         color: $grey;
         line-height: 2;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
 
         @media screen and (max-width: 1023px) {
@@ -137,9 +137,9 @@ body {
 }
 
 .heading-description {
-    width: 40%;
+    width: 30%;
     margin: 30px auto;
-    font-size: 14px;
+    font-size: 12px;
     color: $dark_grey;
     font-weight: 500;
     text-align: center;
@@ -233,9 +233,10 @@ body {
         .description {
             align-self: flex-end;
 
-            p {
-                font-size: 14px;
+            li {
+                font-size: 12px;
                 color: $dark_grey;
+                line-height: 20px;
                 margin: 20px 0;
             }
 
@@ -243,6 +244,12 @@ body {
                 font-size: 18px;
                 color: $dark_grey;
                 font-weight: 500;
+            }
+
+            p {
+                font-size: 12px;
+                margin: 20px 0;
+                color: $dark_grey;
             }
 
             a {
@@ -261,7 +268,7 @@ body {
     background-position: 55vw 2vw;
     background-size: 65vw;
 
-    ul {
+    .plans {
         display: flex;
         justify-content: space-between;
         width: 90%;
@@ -272,10 +279,10 @@ body {
             width: 100%;
         }
 
-        li {
+        .plan-list {
             width: calc(25% - 49px);
             list-style: none;
-            border: 1px solid rgba($color: $grey, $alpha: 0.4);
+            border: 1px solid rgba($color: $grey, $alpha: 0.2);
             border-radius: 10px;
             padding: 50px 20px;
             background-color: white;
@@ -323,13 +330,16 @@ body {
                 }
             }
 
-            p {
-                line-height: 2;
-                font-size: 14px;
+            ul {
+                margin: 20px 0;
+            }
+
+            li {
+                font-size: 12px;
                 color: $dark_grey;
-                width: 50%;
-                margin: 0 auto;
+                margin: 14px auto;
                 text-align: center;
+                list-style: none;
             }
         }
 
@@ -398,9 +408,9 @@ body {
                 }
 
                 p {
-                    font-size: 14px;
+                    font-size: 12px;
                     color: $grey;
-                    line-height: 1.6;
+                    line-height: 20px;
                     margin: 20px 0;
                 }
 
@@ -427,8 +437,8 @@ body {
                         a {
                             text-decoration: none;
                             color: $grey;
-                            font-weight: 600;
-                            font-size: 14px;
+                            font-weight: 500;
+                            font-size: 13px;
                         }
                     }
                 }
